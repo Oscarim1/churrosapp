@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\boot",
+    "\\src\\modules",
+    "\\src\\modules\\Login",
+    "\\src\\modules\\Login\\containers",
+    "\\src\\modules\\Registro",
+    "\\src\\modules\\Registro\\containers"
+  ],
+  "SelectedNode": "\\src\\modules\\Registro\\containers\\registro.js",
+  "PreviewInSolutionExplorer": false
+}
