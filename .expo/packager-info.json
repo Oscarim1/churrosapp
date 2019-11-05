@@ -2,8 +2,8 @@
   "devToolsPort": 19002,
   "expoServerPort": 19000,
   "packagerPort": 19001,
-  "packagerPid": 8920,
-  "expoServerNgrokUrl": null,
-  "packagerNgrokUrl": null,
-  "ngrokPid": null
+  "packagerPid": 4408,
+  "expoServerNgrokUrl": "https://w7-7y4.anonymous.churrosapp.exp.direct",
+  "packagerNgrokUrl": "https://packager.w7-7y4.anonymous.churrosapp.exp.direct",
+  "ngrokPid": 11412
 }

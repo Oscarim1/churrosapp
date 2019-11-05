@@ -3,12 +3,13 @@
     "",
     "\\src",
     "\\src\\boot",
+    "\\src\\images",
     "\\src\\modules",
     "\\src\\modules\\Login",
     "\\src\\modules\\Login\\containers",
     "\\src\\modules\\Registro",
     "\\src\\modules\\Registro\\containers"
   ],
-  "SelectedNode": "\\src\\modules\\Registro\\containers\\registro.js",
+  "SelectedNode": "\\src",
   "PreviewInSolutionExplorer": false
 }
