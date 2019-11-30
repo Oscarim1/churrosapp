@@ -2,7 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\src",
+    "\\src\\boot",
     "\\src\\modules",
+    "\\src\\modules\\Lobby",
+    "\\src\\modules\\Lobby\\containers",
     "\\src\\modules\\Login",
     "\\src\\modules\\Login\\containers",
     "\\src\\modules\\Registro",

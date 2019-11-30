@@ -5,6 +5,7 @@ import { createAppContainer } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack';
 import Login from './modules/Login/containers/login'
 import Registro from './modules/Registro/containers/registro'
+import Lobby from './modules/Lobby/containers/lobby'
 
 
 
@@ -42,6 +43,7 @@ const RootStack = createStackNavigator(
         Home: HomeScreen,
         Login: Login,
         Registro: Registro,
+        Lobby: Lobby,
         
     },
     {

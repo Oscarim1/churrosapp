@@ -7,8 +7,7 @@ export default class Registro extends Component {
     render() {
         return (
 
-            <View style={[styles.container]} >
-                <Container>
+                <Container style={[styles.container]} >
                     <Content>
                         <Form style={[styles.form]}>
                             <Item floatingLabel>
@@ -29,10 +28,12 @@ export default class Registro extends Component {
                             </Item>
                             
                         </Form>
-                        <Button primary style={styles.boton}><Text> Registrarse </Text></Button>
+                        <Button primary style={styles.boton}
+                            onPress={() => this.props.navigation.navigate('Login')}>
+                            <Text> Registrarte </Text></Button>
                     </Content>
                 </Container>
-            </View>
+         
 
 
         );
@@ -45,7 +46,7 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         alignItems: 'center',
         justifyContent: 'center',
-        backgroundColor: '#E27319',
+        backgroundColor: 'white',
         
     },
     form: {
@@ -73,10 +74,8 @@ const styles = StyleSheet.create({
         marginTop: 10,
         marginLeft: 10,
     },
-    button: {
-        alignItems: 'center',
-        justifyContent: 'center',
-        backgroundColor: '#DDDDDD',
-        padding: 10,
+    boton: {
+        marginLeft: '35%',
+        backgroundColor: '#E27319',
     }
 })
