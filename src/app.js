@@ -9,7 +9,7 @@ import Lobby from './modules/Lobby/containers/lobby'
 
 
 
-class HomeScreen extends React.Component {
+class Home extends React.Component {
     render() {
         return (
 
@@ -40,7 +40,7 @@ class HomeScreen extends React.Component {
 
 const RootStack = createStackNavigator(
     {
-        Home: HomeScreen,
+        Home: Home,
         Login: Login,
         Registro: Registro,
         Lobby: Lobby,

@@ -1,51 +1,72 @@
 import React, { Component } from 'react';
 import { StyleSheet } from 'react-native';
-
+import { Image } from 'react-native';
 import { Container, Form, Input, Label, Item, Content, Card, CardItem, Text, Body, Button } from 'native-base';
 
 
 export default class Lobby extends Component {
     render() {
         return (
-            <Container>
+            <Container style={styles.container}>
 
                 <Content padder contentContainerStyle={styles.content}>
-                    <Card>
-                        <CardItem header bordered>
-                            <Text style={styles.textCenter}>Inicio de session</Text>
-                        </CardItem>
-                        <CardItem bordered>
-                            <Body>
-                                <Item rounded>
-                                    <Input placeholder='Usuario' />
-                                </Item>
-                                <Item rounded>
-                                    <Label>Contraseña</Label>
-                                    <Input />
-                                </Item>
-                            </Body>
-                        </CardItem>
-                        <CardItem footer bordered>
-                            <Button primary style={styles.boton}><Text> de prueba </Text></Button>
-                        </CardItem>
-                    </Card>
+
+
+
+
+                    <Body style={styles.body}>
+                        <Image
+                            style={styles.image}
+                            source={require('./modules/images/logo.png')} />
+                        
+                        <Button rounded style={styles.boton}
+                            onPress={() => this.props.navigation.navigate('Lobby')}>
+                            <Text> Crear una solicitud </Text>
+                        </Button>
+                        <Button rounded style={styles.boton}
+                            onPress={() => this.props.navigation.navigate('Home')}>
+                            <Text> Salir </Text>
+                        </Button>
+                    </Body>
+
+
+
                 </Content>
             </Container>
         );
     }
 }
 
+
 const styles = StyleSheet.create({
-    textCenter: {
-        textAlign: 'center',
-        width: '100%'
-    },
     content: {
         flex: 1,
         justifyContent: 'center'
     },
     boton: {
-        marginLeft: '40%'
-    }
+        alignItems: 'center',
+        backgroundColor: '#E27319',
+        
+
+    },
+    container: {
+        flex: 1,
+        alignItems: 'center',
+        justifyContent: 'center',
+        backgroundColor: 'white',
+
+    },
+    body: {
+        flex: 1,
+        alignItems: 'center',
+        justifyContent: 'center',
+
+    },
+    image: {
+        width: 300,
+        height: 300,
+        borderRadius: 150,
+        resizeMode: 'center'
+    },
 
 })
