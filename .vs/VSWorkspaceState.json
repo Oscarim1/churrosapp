@@ -2,15 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\boot",
     "\\src\\modules",
     "\\src\\modules\\Lobby",
     "\\src\\modules\\Lobby\\containers",
+    "\\src\\modules\\Lobby\\containers\\modules",
     "\\src\\modules\\Login",
     "\\src\\modules\\Login\\containers",
-    "\\src\\modules\\Registro",
-    "\\src\\modules\\Registro\\containers"
+    "\\src\\modules\\Login\\containers\\modules",
+    "\\src\\modules\\Login\\containers\\modules\\images"
   ],
-  "SelectedNode": "\\src\\modules\\Login\\containers\\login.js",
+  "SelectedNode": "\\src\\modules\\Lobby\\containers\\lobby.js",
   "PreviewInSolutionExplorer": false
 }

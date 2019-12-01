@@ -6,6 +6,7 @@ import { createStackNavigator } from 'react-navigation-stack';
 import Login from './modules/Login/containers/login'
 import Registro from './modules/Registro/containers/registro'
 import Lobby from './modules/Lobby/containers/lobby'
+import CrearSolicitud from './modules/CrearSolicitud/containers/crearsolicitud'
 
 
 
@@ -44,6 +45,7 @@ const RootStack = createStackNavigator(
         Login: Login,
         Registro: Registro,
         Lobby: Lobby,
+        CrearSolicitud: CrearSolicitud,
         
     },
     {

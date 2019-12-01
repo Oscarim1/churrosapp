@@ -20,7 +20,7 @@ export default class Lobby extends Component {
                             source={require('./modules/images/logo.png')} />
                         
                         <Button rounded style={styles.boton}
-                            onPress={() => this.props.navigation.navigate('Lobby')}>
+                            onPress={() => this.props.navigation.navigate('CrearSolicitud')}>
                             <Text> Crear una solicitud </Text>
                         </Button>
                         <Button rounded style={styles.boton}
