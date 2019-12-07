@@ -3,10 +3,10 @@ import { Button, View, Text, Image, TouchableHighlight} from 'react-native';
 import { StyleSheet } from 'react-native';
 import { createAppContainer } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack';
-import Login from './modules/Login/containers/login'
-import Registro from './modules/Registro/containers/registro'
-import Lobby from './modules/Lobby/containers/lobby'
-import CrearSolicitud from './modules/CrearSolicitud/containers/crearsolicitud'
+import Login from './pages/Login/containers/login'
+import Registro from './pages/Registro/containers/registro'
+import Lobby from './pages/Lobby/containers/lobby'
+import CrearSolicitud from './pages/CrearSolicitud/containers/crearsolicitud'
 
 
 
@@ -17,7 +17,7 @@ class Home extends React.Component {
             <View style = { [styles.container]} >
             <Image
                     style={styles.image}
-                    source={require('./modules/images/logoFondonaranjo.png')} />
+                    source={require('./pages/images/logoFondonaranjo.png')} />
                 <TouchableHighlight
                     style={styles.botom}
                     onPress={() => this.props.navigation.navigate('Login')}>

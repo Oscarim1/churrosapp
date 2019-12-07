@@ -2,15 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\modules",
-    "\\src\\modules\\Lobby",
-    "\\src\\modules\\Lobby\\containers",
-    "\\src\\modules\\Lobby\\containers\\modules",
-    "\\src\\modules\\Login",
-    "\\src\\modules\\Login\\containers",
-    "\\src\\modules\\Login\\containers\\modules",
-    "\\src\\modules\\Login\\containers\\modules\\images"
+    "\\src\\pages",
+    "\\src\\pages\\CrearSolicitud",
+    "\\src\\pages\\Lobby",
+    "\\src\\pages\\Lobby\\containers",
+    "\\src\\pages\\Login",
+    "\\src\\pages\\Login\\containers",
+    "\\src\\pages\\Registro",
+    "\\src\\pages\\Registro\\containers"
   ],
-  "SelectedNode": "\\src\\modules\\Lobby\\containers\\lobby.js",
+  "SelectedNode": "\\src\\app.js",
   "PreviewInSolutionExplorer": false
 }
